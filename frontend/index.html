@@ -1,0 +1,114 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1>My Portfolio</h1>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <button id="darkBtn">Dark Mode</button>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="home">
+
+ <img src="images/c.jpg" alt="Profile">
+        <h2>Hello, I'm Sruthi</h2>
+
+        <p>Frontend Developer | Student</p>
+
+    </section>
+
+    <!-- About -->
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am learning full stack web development.
+            I love building websites and projects.
+        </p>
+
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Node.js</div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>Calculator App</h3>
+                <p>Simple calculator using JavaScript</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>Weather checking application</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+       <form id="contactForm">
+
+    <input type="text" id="name" placeholder="Enter Name">
+
+    <input type="email" id="email" placeholder="Enter Email">
+
+    <textarea id="message" placeholder="Your Message"></textarea>
+
+    <button type="submit">Send</button>
+
+</form>
+
+ <h2>Saved Messages</h2>
+
+    <div id="output"></div>
+
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
